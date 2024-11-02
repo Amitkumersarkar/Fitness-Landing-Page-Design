@@ -13,7 +13,9 @@ body {
     font-style: normal;
     font-weight: 800;
     background-color: black;
-
+    min-height: 100vh;
+    /* min-height: 700px; */
+    overflow-x: hidden;
 }
 
 /* header section style */
@@ -326,10 +328,79 @@ nav a {
     width: 400px;
     height: 300px;
     border-radius: 18px;
-    margin-top: 30px;
+    margin-top: 35px;
     margin-right: 32px;
 }
 
 /* #run {
     border: 1px solid purple;
 } */
+/* Meet Our Team section */
+.Meet-Our-Team-section {
+    border: 2px solid blue;
+    max-width: 1440px;
+    height: 950px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.Meet-Our-Team-container {
+    border: 1px solid yellow;
+    width: 60%;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#our-team-heading {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+}
+
+#team-text {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.our-team-img-container {
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.team-img {
+    /* border: 1px solid #10e35a; */
+    max-width: 1440px;
+    height: 700px;
+    margin-left: 10px;
+    position: absolute;
+    padding: 5px;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.team-img img {
+    border-radius: 18px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
