@@ -22,7 +22,7 @@ body {
     height: 820px;
     margin: 0 auto;
     background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.00) 100%);
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
 .nav-section {
@@ -126,7 +126,6 @@ nav a {
 
 .btn {
     display: flex;
-    width: 250px;
     padding-top: 10px;
     justify-content: center;
     align-items: flex-start;
@@ -135,10 +134,12 @@ nav a {
 
 .btn-1,
 .btn-2 {
-    padding: 15px;
-    border-radius: 42px;
+    width: 220px;
     background: #E6533C;
     color: #FFF;
+    padding: 15px;
+    border-radius: 42px;
+    font-size: 15px;
     border: none;
 }
 
@@ -171,6 +172,7 @@ nav a {
     max-width: 1440px;
     height: 600px;
     margin: 0 auto;
+    margin-top: 50px;
 }
 
 .habit-text-container {
@@ -253,3 +255,81 @@ nav a {
     letter-spacing: 0.3px;
     padding-top: 5px;
 }
+
+/* extra-mile-section */
+.extra-mile-section {
+    border: 2px solid peru;
+    max-width: 1440px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+    gap: 160px;
+}
+
+.extra-1 {
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 350px;
+    margin: 10px;
+}
+
+.extra-heading {
+    /* border: 1px solid green; */
+    margin: 5px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+#extra-title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+#extra-text {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 15px;
+}
+
+#btn {
+    border-radius: 42px;
+    background: #E6533C;
+    color: #FFF;
+    font-size: 15px;
+    width: 220px;
+    padding: 16px 40px;
+    justify-content: center;
+    border: none;
+    margin-top: 30px;
+}
+
+/* image section design */
+.extra-img {
+    /* border: 1px solid violet; */
+    width: 50%;
+    height: 350px;
+    margin: 10px;
+    justify-items: end;
+}
+
+.extra-img img {
+    width: 400px;
+    height: 300px;
+    border-radius: 18px;
+    margin-top: 30px;
+    margin-right: 32px;
+}
+
+/* #run {
+    border: 1px solid purple;
+} */
