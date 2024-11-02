@@ -33,6 +33,7 @@ body {
     margin-top: 40px;
     padding-top: 30px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     /* border: 2px solid blue; */
 }
@@ -51,13 +52,13 @@ body {
     border: 1px solid rgb(38, 36, 1);
     border-radius: 40px;
     display: flex;
+    flex-wrap: wrap;
     padding: 12px;
-
-
 }
 
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
@@ -89,6 +90,7 @@ nav a {
     width: 90%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 100px;
     margin-left: 70px;
     padding: 10px;
@@ -129,6 +131,7 @@ nav a {
 
 .btn {
     display: flex;
+    flex-wrap: wrap;
     padding-top: 10px;
     justify-content: center;
     align-items: flex-start;
@@ -165,6 +168,7 @@ nav a {
     margin: 0 auto;
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
 }
 
@@ -213,6 +217,7 @@ nav a {
     width: 95%;
     margin: 0 auto;
     display: grid;
+    flex-wrap: wrap;
     gap: 10px;
     padding: 10px;
     grid-template-columns: repeat(4, 1fr);
@@ -266,6 +271,7 @@ nav a {
     height: 400px;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 50px;
     gap: 160px;
 }
@@ -423,6 +429,7 @@ nav a {
     width: 90%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 100px;
     margin-top: 65px;
@@ -457,6 +464,7 @@ nav a {
     /* border: 1px solid red; */
     margin: 5px;
     display: flex;
+    flex-wrap: wrap;
     color: #FFF;
     gap: 50px;
     padding: 20px;
@@ -478,7 +486,7 @@ a {
     align-items: flex-start;
     gap: 20px;
     align-self: stretch;
-
+    flex-wrap: wrap;
 }
 
 .foot-nav-1 li {
@@ -510,3 +518,23 @@ a {
     line-height: 24px;
     letter-spacing: 0.3px;
 }
+
+/* responsive section
+@media screen and (min-width:576px) and (max-width:1920px) {
+    .nav-section {
+        display: flex;
+        flex-direction: column;
+     }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heading,
+    .img-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}  */
