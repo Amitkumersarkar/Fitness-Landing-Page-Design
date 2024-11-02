@@ -339,7 +339,7 @@ nav a {
 .Meet-Our-Team-section {
     border: 2px solid blue;
     max-width: 1440px;
-    height: 950px;
+    height: 1050px;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -375,9 +375,10 @@ nav a {
 
 .our-team-img-container {
     /* border: 1px solid red; */
-    width: 90%;
-    height: 700px;
+    width: 78%;
+    height: 760px;
     margin: 0 auto;
+    padding-top: 20px;
     margin-top: 60px;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.10);
@@ -392,15 +393,15 @@ nav a {
     padding: 5px;
     display: grid;
     flex-wrap: wrap;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 350px));
     column-gap: 20px;
     row-gap: 20px;
 }
 
 .team-img img {
     border-radius: 18px;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     object-fit: cover;
     object-position: center;
 }
