@@ -15,7 +15,7 @@ body {
     background-color: black;
     min-height: 100vh;
     /* min-height: 700px; */
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 /* header section style */
@@ -24,7 +24,7 @@ body {
     height: 820px;
     margin: 0 auto;
     background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.00) 100%);
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .nav-section {
@@ -51,7 +51,8 @@ body {
     border: 1px solid rgb(38, 36, 1);
     border-radius: 40px;
     display: flex;
-    padding: 10px;
+    padding: 12px;
+
 
 }
 
@@ -170,7 +171,7 @@ nav a {
 /* change your habit section */
 /* card design */
 .change-your-habits-section {
-    border: 2px solid rgb(96, 195, 244);
+    /* border: 2px solid rgb(96, 195, 244); */
     max-width: 1440px;
     height: 600px;
     margin: 0 auto;
@@ -260,7 +261,7 @@ nav a {
 
 /* extra-mile-section */
 .extra-mile-section {
-    border: 2px solid peru;
+    /* border: 2px solid peru; */
     max-width: 1440px;
     height: 400px;
     margin: 0 auto;
@@ -313,6 +314,7 @@ nav a {
     justify-content: center;
     border: none;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 /* image section design */
@@ -337,7 +339,7 @@ nav a {
 } */
 /* Meet Our Team section */
 .Meet-Our-Team-section {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     max-width: 1440px;
     height: 1050px;
     margin: 0 auto;
@@ -345,7 +347,7 @@ nav a {
 }
 
 .Meet-Our-Team-container {
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     width: 60%;
     height: 150px;
     margin: 0 auto;
@@ -404,4 +406,107 @@ nav a {
     height: 350px;
     object-fit: cover;
     object-position: center;
+}
+
+/* footer-section-container */
+.footer-section-container {
+    /* border: 2px solid red; */
+    max-width: 1440px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.footer-heading {
+    /* border: 1px solid palegoldenrod; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 65px;
+}
+
+#footer-title {
+    color: #E6533C;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 120%;
+    padding-top: 20px;
+}
+
+/* .foot {
+    border: 2px solid purple;
+} */
+
+#foot-descrip {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    padding-top: 20px;
+}
+
+.foot-2 {
+    /* border: 1px solid red; */
+    margin: 5px;
+    display: flex;
+    color: #FFF;
+    gap: 50px;
+    padding: 20px;
+}
+
+.foot-nav-1,
+.foot-nav-2,
+li {
+    list-style: none;
+}
+
+.foot-nav-1,
+.foot-nav-2,
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.50);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+
+}
+
+.foot-nav-1 li {
+    padding: 10px;
+}
+
+.foot-nav-2 li {
+    padding: 10px;
+}
+
+.nav-head-1,
+.nav-head-2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+#foot-copy-sign {
+    text-align: center;
+    margin-top: 200px;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
 }
